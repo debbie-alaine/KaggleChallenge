@@ -481,7 +481,7 @@ def retinanet_model_fn(features, labels, mode, params):
         labels,
         mode,
         params,
-        model=retinanet_architecture.retinanet,
+        model=retinanet_densenet_architecture.retinanet,
         variable_filter_fn=retinanet_architecture.remove_variables)
 
 
