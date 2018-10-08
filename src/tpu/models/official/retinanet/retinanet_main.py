@@ -25,8 +25,8 @@ from absl import flags
 import numpy as np
 import tensorflow as tf
 
-from . import dataloader
-from . import retinanet_model
+from .retinanet import dataloader
+from .retinanet import retinanet_model
 
 # Cloud TPU Cluster Resolvers
 flags.DEFINE_string(
